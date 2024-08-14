@@ -1,0 +1,224 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+:root {
+  --primary-color: #3498db;
+  --secondary-color: #df6951;
+  --text-color: #333;
+}
+
+.hero-section {
+  padding-bottom: 20px;
+  width: 100%;
+  background-image: url("img/decore.png");
+  background-position: center;
+  background-size: cover;
+}
+
+.nav-link {
+  font-family: "Open Sans", sans-serif !important;
+  margin-right: 55px;
+  font-weight: 500;
+  color: black;
+}
+
+.tagline {
+  font-family: "Poppins", sans-serif !important;
+  color: var(--secondary-color);
+  font-weight: 600;
+}
+
+.heading {
+  font-family: "Volkhov", serif;
+  font-weight: 900;
+  font-size: 4.2rem;
+  width: 100%;
+}
+.heading-2 {
+  font-family: "Volkhov", serif;
+  font-weight: 900;
+}
+.heading span {
+  font-family: "Volkhov", serif;
+  font-weight: 900;
+  font-size: 4.2rem;
+  width: 80%;
+}
+
+.desc {
+  width: 80%;
+}
+
+.find {
+  padding: 15px 25px;
+  color: white;
+  text-decoration: none;
+  background-color: #f1a501;
+  border-radius: 10px;
+  box-shadow: rgba(236, 217, 0, 0.2) 0px 7px 29px 0px;
+  height: 55px;
+}
+
+.play {
+  width: 120px;
+  margin-top: -15px;
+  margin-right: 0px;
+}
+
+.signup {
+  border: solid 1px black;
+}
+
+.line {
+  display: block;
+  margin-left: 250px;
+  margin-top: -15px;
+  width: 230px;
+}
+
+.wrap-offer {
+  padding: 20px;
+  border: 1px solid transparent;
+  transition: all 0.3s ease-in-out;
+  border-radius: 15px;
+}
+
+.wrap-offer:hover {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.titik {
+  position: absolute;
+  right: 0;
+}
+
+.wrap-destination {
+  width: 320px;
+  padding: 0px;
+  border-radius: 20px;
+  box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+  margin-bottom: 30px;
+  z-index: 12;
+}
+
+.img-destination {
+  border-radius: 20px 20px 0px 0px;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  height: 390px;
+}
+
+.ring-image {
+  position: absolute;
+  top: 50%; /* Sesuaikan posisi vertikal */
+  left: 80%; /* Pindahkan ke kanan elemen */
+  transform: translate(-50%, -50%);
+  z-index: -99; /* Letakkan gambar di belakang elemen wrap-destination */
+}
+
+.card-desti {
+  max-width: 500px;
+  margin-bottom: 20px;
+}
+
+.card-desti p {
+  margin-bottom: 3px;
+}
+
+.card-desti img {
+  width: 50px;
+  height: 50px;
+  margin-right: 20px;
+}
+
+.wrap-sponsor img {
+  width: 100%;
+}
+
+.wrap-sponsor {
+  display: flex;
+  justify-content: center;
+  border-radius: 15px;
+  transition: all 0.5s ease-out;
+  height: 120px;
+}
+
+.wrap-sponsor:hover {
+  box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+}
+
+.wrap-subscribe {
+  max-width: 1200px;
+  background-color: #dfd7f9;
+  height: 350px;
+  padding: 20px;
+  border-radius: 150px 0px 15px 15px;
+}
+
+.wrap-subscribe {
+  position: relative; /* Menjadikan wrap-subscribe sebagai konteks posisi */
+}
+
+.ring-right img {
+  position: absolute;
+  width: 300px;
+  top: 0;
+  right: 0;
+}
+.plane-right img {
+  position: absolute;
+  top: -10px;
+  right: -10px;
+}
+.ring-left img {
+  position: absolute;
+  width: 300px;
+  bottom: 0;
+  left: 0;
+}
+
+.input-container {
+  position: relative;
+  display: inline-block;
+}
+
+.input-container input {
+  padding-left: 40px; /* Buat ruang untuk ikon */
+  height: 50px;
+  width: 300px;
+  font-size: 16px;
+  margin-right: 15px;
+  border: 0px;
+  border-radius: 5px;
+}
+
+.input-container::before {
+  content: url("img/email.png"); /* Ganti dengan path ke gambar Anda */
+  position: absolute;
+  left: 5px;
+  top: 45%;
+  transform: translateY(-50%);
+  width: 20px;
+  height: 20px;
+}
+
+.subscribe {
+  border: 0px;
+  padding: 0px 10px;
+  background-color: #ff7d68;
+  border-radius: 10px;
+  color: white;
+}
+
+.item-footer p {
+  margin-bottom: 0px;
+}
+
+.sosmed img {
+  width: 70px;
+  height: 70px;
+}
